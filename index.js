@@ -47,7 +47,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 // create the api
-app.use("/api/v1/user", userRoute);
+app.use(BASE_URL, userRoute);
 
 // so our api looks like
 // http://localhost:3000/api/v1/user/
