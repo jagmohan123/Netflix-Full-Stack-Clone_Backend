@@ -52,7 +52,7 @@ app.use("/api/v1/user", userRoute);
 // http://localhost:3000/api/v1/user/
 
 app.get("/", (req, res) => {
-  res.send(`<h1>Hello </h1>`);
+  res.send(`<h1>Hello G we are live now!!!! </h1>`);
 });
 
 // stabilisg DB Connection
