@@ -17,6 +17,7 @@ require("dotenv").config();
 const cookieParser = require("cookie-parser");
 const getDbConnect = require("./configuration/database");
 const userRoute = require("./routes/user");
+const BASE_URL=process.env.BASE_URL;
 // import cors from "cors";
 const cors = require("cors");
 // import the db connection
